@@ -1,13 +1,9 @@
 # Proiect Java: Breakout Ball
 
 **Autor:** Galea David-Daniel
-**Grupa:** 3
 **Tehnologii folosite:** Java (Swing, AWT), SQLite (JDBC)
 
 ---
-
-## 1. Introducere, motivație și contextul tematic
-Proiectul reprezintă o implementare a clasicului joc arcade "Breakout", dezvoltat în limbajul Java. Motivația alegerii acestei teme (C.35 din lista de proiecte) a fost îmbinarea conceptelor de programare orientată pe obiecte, interfețe grafice (GUI) și managementul persistenței datelor printr-o bază de date relațională. Jocul urmărește dezvoltarea reflexelor și oferă un sistem de progresie prin niveluri de dificultate variată.
 
 ## 2. Fundamente teoretice și descrierea problemei
 Problema principală a constat în crearea unui motor grafic 2D capabil să randeze elemente la 60 de cadre pe secundă și să detecteze coliziunile matematice (intersecții de dreptunghiuri) dintre o minge în mișcare, pereți, o paletă controlată de utilizator și o matrice de cărămizi. De asemenea, a fost necesară o soluție pentru salvarea istoricului utilizatorilor și a scorurilor acestora între sesiunile de joc.
@@ -36,7 +32,7 @@ Aplicația este modularizată în 4 clase principale:
 5. **Tasta ENTER**: Folosită pentru a salva progresul și a trece la nivelul următor în caz de victorie, sau pentru a reîncerca în caz de Game Over.
 
 ## 5. Concluzii
-Aplicația îndeplinește cu succes cerințele specifice temei C.35, oferind progresie prin fișiere de hărți, dificultate prin cronometru și viteză, precum și managementul sesiunilor de utilizator prin baza de date. Proiectul demonstrează lucrul eficient cu fire de execuție (Timer), grafică 2D, fișiere I/O și baze de date în Java.
+Aplicația atinge cu succes toate obiectivele funcționale propuse: un gameplay fluid și receptiv, generare dinamică a nivelurilor din fișiere externe de configurare, un nivel progresiv de dificultate și persistența completă a datelor utilizatorilor prin SQLite.
 
 ## 6. Bibliografie
 * Documentația oficială Oracle Java SE (Swing, AWT, JDBC)
